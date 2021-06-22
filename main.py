@@ -49,3 +49,6 @@ class CalculatorApp(App):
 calcApp = CalculatorApp()
 calcApp.run()
   
+git fetch origin
+git checkout -b code origin/code
+git merge master
