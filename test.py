@@ -1,5 +1,5 @@
 import unittest
-from exercise import Converter, Conversion
+from main import Converter, Conversion
 
 class Test(unittest.TestCase):
     def test_name(self):
