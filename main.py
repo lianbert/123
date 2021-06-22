@@ -49,6 +49,6 @@ class CalculatorApp(App):
 calcApp = CalculatorApp()
 calcApp.run()
   
-git fetch origin
-git checkout -b code origin/code
-git merge master
+git checkout master
+git merge --no-ff code
+git push origin master
